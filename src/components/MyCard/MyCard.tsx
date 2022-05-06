@@ -5,7 +5,7 @@ import styles from './MyCard.module.scss';
 
 const MyCard: React.FC = () => {
     return (
-        <div className={styles.container}>
+        <div >
             <div>
                 <h1 className={styles.main}>{data.surname}</h1>
             </div>
