@@ -20,20 +20,19 @@ const AboutPage = () => {
   
     return (
         <>
-          <section className={styles.wrapper}>
-              <div className={styles.container}>
-                  <div className={styles.grid}>
-                      <div className={`${styles.card} ${styles.lilac}`}>
-                          <div className={styles.cardInner}>
-                           {/* <img className={styles.image} src={img} alt="" /> */}
-                           <div>
-                             <h1 className={styles.heading}>{data.name}</h1>
-                             <h2  className={styles.subheading}>{data.position}</h2>
-                           </div>
-                          </div> 
-                      </div>
-                  </div>
+        <main>
+      <section className="wrapper">
+        <div className="container">
+          <div className={styles.grid}>
+            <div className={`${styles.card} ${styles.lilac}`}>
+              <div className={styles.cardInner}>
+                {/* <img className={styles.image} src={img} alt="" /> */}
+                <div className={styles.cardHeader}>
+                  <h1 className={styles.heading}>{data.name}</h1>
+                  <h2 className={styles.subheading}>{data.position}</h2>
+                </div>
               </div>
+            </div>
 
             <div className={`${styles.card} ${styles.green}`}>
               <Heading>{data.aboutHeading}</Heading>
@@ -45,7 +44,6 @@ const AboutPage = () => {
               <Paragraph>{data.skillsText}</Paragraph>
             </div>
 
-
             <div className={`${styles.card} ${styles.cyan}`}>
               <Heading>{data.contactsHeading}</Heading>
               <Paragraph>
@@ -53,9 +51,10 @@ const AboutPage = () => {
                 <Social data={data.socialLinks} />
               </Paragraph>
             </div>
-
-
-          </section>     
+          </div>
+        </div>
+      </section>
+    </main>    
         </>
     );
 };

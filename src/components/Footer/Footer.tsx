@@ -7,7 +7,7 @@ const Footer: FC = () => {
   return (
     <>
       <footer className={styles.footer}>
-        <div className={styles.container}>
+        <div className='container'>
           <div className={styles.footerInner}>
           <a 
           className={styles.link}

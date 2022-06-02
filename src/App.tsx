@@ -8,6 +8,8 @@ import Footer  from './components/Footer/Footer';
 import Header  from './components/Header/Header';
 import AboutPage from './pages/AboutPage';
 
+import './scss/._main.scss';
+
 const App: FC = () => {
   return (
     <>

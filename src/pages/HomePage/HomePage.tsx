@@ -18,8 +18,8 @@ const HomePage = () => {
     return (
         <>
          <main>
-             <section className={styles.wrapper}>
-                 <div className={styles.container}>
+             <section className='wrapper'>
+                 <div className='container'>
                      <div className={styles.box}>
                          <h1 className={styles.heading}>{data.name}</h1>
                          <h2 className={styles.subheading}>{data.position}</h2>

@@ -1,11 +1,15 @@
-
 .footer {
-    text-align: center;
-  background: gray;
-  padding: 20px 0;
-  color: #fff;
-  position: fixed;
-  left: 0px;
-  bottom: 0px;
-  width: 100%;
+  padding: 2rem 0;
+}
+
+.footerInner {
+  text-align: center;
+}
+
+.link {
+  transition: color 0.3s ease-out;
+}
+
+.link:hover {
+  color: var(--color-accent);
 }

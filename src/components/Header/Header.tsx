@@ -10,7 +10,7 @@ const navLinks = [
 const Header: FC = () => {
   return (
     <header className={styles.header}>
-      <div className="container">
+      <div className='container'>
         <div className={styles.headerInner}>
           <ul className={styles.links}>
             {navLinks.map((link, idx) => (
@@ -20,7 +20,6 @@ const Header: FC = () => {
                 </NavLink>
               </li>
             ))}
-            <li></li>
           </ul>
           <div className={styles.links}>
             <Link className={styles.langLink} to="?">

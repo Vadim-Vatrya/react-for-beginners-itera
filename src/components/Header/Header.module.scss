@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   z-index: 100;
-  padding: 2rem 0;
+  padding: 50px 0;
   background-color: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16);
 }
@@ -17,7 +17,7 @@
 
 .links {
   display: flex;
-  gap: 1rem;
+  gap: 15px;
 }
 
 .link {
@@ -45,15 +45,11 @@
   transform: scaleX(1);
 }
 
-.links {
-  display: flex;
-  gap: 1rem;
-}
 
 .langLink {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 10px;
   background-color: var(--color-white);
   font-weight: 700;
   color: var(--color-black);
@@ -62,5 +58,5 @@
 }
 
 .langLink:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
