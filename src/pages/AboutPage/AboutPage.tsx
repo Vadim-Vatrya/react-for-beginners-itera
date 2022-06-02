@@ -8,7 +8,7 @@ import Heading from '../../components/Heading';
 import Paragraph from '../../components/Paragraph';
 import Social from '../../components/Social';
 import styles from './AboutPage.module.scss';
-// import img from '../../assets/owner-photo.jpg'
+import img from '../../components/image/photo.jpg';
 
 import languageUa from '../../data/ukrainian.json';
 import languageEn from '../../data/english.json';
@@ -26,7 +26,7 @@ const AboutPage = () => {
           <div className={styles.grid}>
             <div className={`${styles.card} ${styles.lilac}`}>
               <div className={styles.cardInner}>
-                {/* <img className={styles.image} src={img} alt="" /> */}
+                <img className={styles.image} src={img} alt="" />
                 <div className={styles.cardHeader}>
                   <h1 className={styles.heading}>{data.name}</h1>
                   <h2 className={styles.subheading}>{data.position}</h2>
