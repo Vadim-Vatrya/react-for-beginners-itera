@@ -1,0 +1,27 @@
+{
+  "name": "Vadim Vatrya",
+  "position": "Junior Front-end developer",
+  "aboutHeading": "About me",
+  "aboutText": "I'm from Kherson. Front-end technologies are the most promising and developing IT industry. My primary target is to get job in a good team for further education JavaScript, NodeJS and framework ReactJS. I want to grow and develop in these technologies. You can see the projects on these technologies below. I'm an enthusiastic and look forward new challenges. ",
+  "skillsHeading": "Skills",
+  "skillsText": "Responsive and adaptive design, BEM, HTML, CSS,   SASS/SCSS, JavaScript, React, Node.js, NPM, Gulp, Webpack, Git, Figma, Adobe Photoshop.",
+  "contactsHeading": "Contacts",
+  "contactsLinks": [
+    {
+      "label": "VatryaVV@gmail.com",
+      "href": "mailto:VatryaVV@gmail.com"
+    },
+    { "label": "+38 (066) 796 38 46", "href": "tel:+380667963846" }
+  ],
+  "socialLinks": [
+    { "label": "GitHub", "href": "https://github.com/Vadim-Vatrya" },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/vadim-vatrya-4858b2204/"
+    },
+    {
+      "label": "Telegram",
+      "href": "https://t.me/Vadim_Vatrya"
+    }
+  ]
+}

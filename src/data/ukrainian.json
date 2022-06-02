@@ -1,0 +1,27 @@
+{
+  "name": "Ватря Вадим",
+  "position": " Junior Front-end розробник",
+  "aboutHeading": "Про мене",
+  "aboutText": "Я з Херсона. Фронт-енд технології – найбільш перспективна і розвинута ІТ-галузь. Моя головна мета — отримати роботу в хорошій команді для подальшої освіти JavaScript, NodeJS та фреймворку ReactJS. Я хочу рости і розвиватися в цих технологіях. Нижче ви можете побачити проекти за цими технологіями. Я ентузіаст і з нетерпінням чекаю нових викликів.",
+  "skillsHeading": "Навички",
+  "skillsText": "Responsive and adaptive design, BEM, HTML, CSS,   SASS/SCSS, JavaScript, React, Node.js, NPM, Gulp, Webpack, Git, Figma, Adobe Photoshop.",
+  "contactsHeading": "Контакти",
+  "contactsLinks": [
+    {
+      "label": "VatryaVV@gmail.com",
+      "href": "mailto:VatryaVV@gmail.com"
+    },
+    { "label": "+38 (066) 796 38 46", "href": "tel:+380667963846" }
+  ],
+  "socialLinks": [
+    { "label": "GitHub", "href": "https://github.com/Vadim-Vatrya" },
+    {
+      "label": "LinkedIn",
+      "href": "https://www.linkedin.com/in/vadim-vatrya-4858b2204/"
+    },
+    {
+      "label": "Telegram",
+      "href": "https://t.me/Vadim_Vatrya"
+    }
+  ]
+}

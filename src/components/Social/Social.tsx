@@ -1,11 +1,11 @@
-// Contacts
+// Social
 import { FC } from 'react';
 import { LinkTypes } from '../../types';
-import styles from './styles.module.css';
+import styles from './styles.module.scss';
 
-const Contacts: FC<LinkTypes> = (props) => {
+const Social: FC<LinkTypes> = (props) => {
   return (
-    <ul className={styles.contacts}>
+    <ul className={styles.social}>
       {props.data.map((item, idx) => (
         <li key={idx}>
           <a className={styles.link} href={item.href}>
@@ -15,6 +15,6 @@ const Contacts: FC<LinkTypes> = (props) => {
       ))}
     </ul>
   )
-}
+};
 
-export default Contacts;
+export default Social;

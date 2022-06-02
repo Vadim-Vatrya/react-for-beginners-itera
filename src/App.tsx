@@ -1,19 +1,25 @@
+import { FC } from 'react';
 import {Route, Routes } from 'react-router-dom';
+import  LanguageContext  from './context/LanguageContext';
 
 
-import MyCard from './components/MyCard';
-import { Footer } from './components/Footer/Footer';
+import HomePage from './pages/HomePage';
+import Footer  from './components/Footer/Footer';
 import Header  from './components/Header/Header';
+import AboutPage from './pages/AboutPage';
 
-function App() {
+const App: FC = () => {
   return (
-    <div >
-        <Header />
+    <>
+     <LanguageContext>
+     <Header />
         <Routes>
-          <Route path="/:ln" element={<MyCard />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage/>}/>
         </Routes>
-        <Footer copyright ="C" />
-      </div>
+        <Footer />
+     </LanguageContext>
+    </>
       
    
   );

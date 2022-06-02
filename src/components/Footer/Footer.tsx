@@ -1,13 +1,36 @@
-import React from 'react';
+import {FC} from 'react';
 import styles from './Footer.module.scss'; 
 
-type FooterProps = {
-  copyright: string;
+
+
+const Footer: FC = () => {
+  return (
+    <>
+      <footer className={styles.footer}>
+        <div className={styles.container}>
+          <div className={styles.footerInner}>
+          <a 
+          className={styles.link}
+          href="https://github.com/Vadim-Vatrya/"
+          rel="noreferrer noopener">
+          Coded with ❤ by Vadim Vatrya.
+          </a>
+          </div>
+        </div>
+      </footer>
+    </>
+  )
 };
 
-export const Footer: React.FC<FooterProps> = (props) => {
-    return (
-        <footer className={styles.footer}>Footer {props.copyright}</footer>
-    );
-};
+export default Footer;
+
+// type FooterProps = {
+//   copyright: string;
+// };
+
+// export const Footer: React.FC<FooterProps> = (props) => {
+//     return (
+//         <footer className={styles.footer}>Footer {props.copyright}</footer>
+//     );
+// };
   
